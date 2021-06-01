@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginPanel">
+  <grid id="27dc6" binding="PanelUtama" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="4" width="576" height="580"/>
+    </constraints>
+    <properties>
+      <preferredSize width="466" height="346"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="15f8c" binding="Panel1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="466" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-486394"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c4bcd" class="javax.swing.JLabel" binding="Header1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="289" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="TES CPNS ONLINE TAHUN 2021"/>
+            </properties>
+          </component>
+          <component id="b2c62" class="javax.swing.JLabel" binding="Header2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="338" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Montserrat" size="12" style="1"/>
+              <foreground color="-1"/>
+              <text value="KEMENTRIAN KETENAGAKERJAAN REPUBLIK INDONESIA"/>
+            </properties>
+          </component>
+          <component id="12abe" class="javax.swing.JLabel" binding="Logo">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="65" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="KKRI.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="17928" binding="Panel2" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="5" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="466" height="246"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16698813"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="eab08" class="javax.swing.JLabel" binding="CekLogin">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="224" height="72"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Masukkan username dan password"/>
+            </properties>
+          </component>
+          <component id="c40bb" class="javax.swing.JLabel" binding="PasswordBox">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="86" height="23"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font/>
+              <foreground color="-1"/>
+              <text value="Password "/>
+            </properties>
+          </component>
+          <component id="cf246" class="javax.swing.JCheckBox" binding="checkBox">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16698813"/>
+              <foreground color="-1"/>
+              <text value="Show password"/>
+            </properties>
+          </component>
+          <hspacer id="79c9b">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="f6f2e">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="788aa" class="javax.swing.JButton" binding="Login">
+            <constraints>
+              <grid row="4" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="30"/>
+                <preferred-size width="100" height="30"/>
+                <maximum-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-56755"/>
+              <font name="Arial Black" size="14" style="1"/>
+              <foreground color="-1"/>
+              <text value="LOGIN"/>
+            </properties>
+          </component>
+          <vspacer id="a8d0d">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="29b14" class="javax.swing.JLabel" binding="UsernameBox">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="86" height="23"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font/>
+              <foreground color="-1"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="6f407" class="javax.swing.JTextField" binding="Username">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="6" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16698813"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="f7300" class="javax.swing.JPasswordField" binding="Password">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="6" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16698813"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
