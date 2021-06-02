@@ -74,7 +74,7 @@ public class Tes1 {
         timer.start();
     }
     public Tes1() {
-        untukTimer=true
+        untukTimer=true;
 
         Border garistepi = BorderFactory.createLineBorder(Color.WHITE);
         PanelWaktu.setBorder(garistepi);
