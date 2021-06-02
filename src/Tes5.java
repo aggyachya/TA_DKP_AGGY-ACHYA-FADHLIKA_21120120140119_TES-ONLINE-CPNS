@@ -75,6 +75,7 @@ public class Tes5 {
     }
 
     public Tes5(int skor){
+        untukTimer=true;
         this.skor=skor;
         Border garistepi = BorderFactory.createLineBorder(Color.WHITE);
         PanelWaktu.setBorder(garistepi);
