@@ -76,7 +76,7 @@ public class Tes2 {
     }
 
     public Tes2(int skor) {
-        untukTimer=true
+        untukTimer=true;
         JFrame frame = new JFrame("Tes Online CPNS 2021");
         frame.setContentPane(PanelUtama);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
